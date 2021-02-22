@@ -13,6 +13,7 @@ interface ButtonProps {
 
 export function Button(props: ButtonProps) {
   return (
-    <button type="button">Botão <strong>Teste</strong></button>
+    <button type="button" style={{ backgroundColor: props.color }}>Botão - { props.color }
+    </button>
   );
 }
